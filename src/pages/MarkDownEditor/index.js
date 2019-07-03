@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Remarkable from "remarkable";
 
 import "./MarkDownEditor.css";
 
@@ -17,7 +16,6 @@ export default class MarkDownEditor extends Component {
   };
 
   getRawMarkup = e => {
-    const md = new Remarkable();
     return { __html: md.render(this.state.value) };
   };
 
