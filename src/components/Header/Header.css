@@ -7,14 +7,16 @@ header#main-header {
   /* color: #fafafa; */
   /* min-height: 4rem; */
   background-color: #20232a;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
   /* padding: 0.5rem 1rem; */
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
-  color: -webkit-link;
-  color: hsla(0, 0%, 100%, 0.5);
+  /* padding-right: 0.5rem; */
+  /* padding-left: 0.5rem; */
+  /* color: -webkit-link; */
+  /* color: hsla(0, 0%, 100%, 0.5); */
+  width: 100%;
+  max-width: 980px;
 }
 
 .header-content p {
