@@ -7,7 +7,9 @@ import "./Header.css";
 export default function Headers() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Navbar.Brand href="#home">ReactJS</Navbar.Brand>
+      <Navbar.Brand as={Link} to="/">
+        ReactJS
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
