@@ -35,7 +35,7 @@ export default class Headers extends React.Component {
           <Nav>
             <Nav.Link onClick={this.handleClick}>
               Notificações{" "}
-              <Badge variant="light">
+              <Badge variant="success">
                 {this.state.counter ? this.state.counter : ""}
               </Badge>
             </Nav.Link>
